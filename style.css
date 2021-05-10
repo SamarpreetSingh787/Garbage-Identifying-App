@@ -1,0 +1,198 @@
+.heading
+{
+  font-size: 23px;
+  font-family: 'Architects Daughter', cursive;
+  width: 100%;
+  margin: 0px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.heading_div {
+  width: 60%;
+  float: none;
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 10px;
+  font-family:'Indie Flower', cursive !important;
+  font-size: 20px;
+}
+
+ i{
+   color: black;
+  visibility: hidden;
+}
+.heading_div:hover i{
+  visibility: visible;
+}
+
+.note {
+  color: black;
+  font-size: 17px;
+  font-family: 'Zen Dots', cursive;
+}
+
+.egs {
+  margin-right: 5px;
+  width: 15%;
+  font-size: 18x;
+  font-family: 'Lobster', cursive;
+  border: 2px solid blue;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.main_catg_div
+  {
+  	float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    white-space: pre-line;
+    width: 21%;
+    background-color: gold;
+    border-top: 8px ridge greenyellow;
+    border-right: 8px ridge greenyellow;
+    border-bottom: 8px ridge greenyellow;
+  }
+
+  .catg_div
+  {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    white-space: pre-line;
+    background-color: white;
+    border-top: 8px ridge greenyellow;
+    border-right: 8px ridge greenyellow;
+    border-bottom: 8px ridge greenyellow;
+    float: left;
+  }
+  .catg_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #catg_n
+  {
+  	font-size: 18px;
+  	margin: 15px;
+    white-space: pre-line;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .catg_btn {
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  #msg_catg {
+    white-space: pre-line;
+    font-size: 15px;
+  }
+  .main_accu_div
+  {
+  	float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    white-space: pre-line;
+    width: 21%;
+    background-color: gold;
+    border-top: 8px ridge greenyellow;
+    border-left: 8px ridge greenyellow;
+    border-bottom: 8px ridge greenyellow;
+  }
+
+  .accu_div
+  {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    white-space: pre-line;
+    background-color: white;
+    border-top: 8px ridge greenyellow;
+    border-left: 8px ridge greenyellow;
+    border-bottom: 8px ridge greenyellow;
+    float: right;
+  }
+  .accu_img
+  {
+  	width: 200px; 
+  	border-radius: 100px;
+  }
+  #accu
+  {
+  	font-size: 18px;
+  	margin: 15px;
+    white-space: pre-line;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .accu_btn {
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  #msg_accu {
+    white-space: pre-line;
+    font-size: 15px;
+  }
+
+  .note2 {
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .note2_p {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+  }
+
+  .copy_right_footer {
+    width: 100%;
+    color: white;
+    position: fixed;
+    background-color: grey;
+    bottom: 0;
+    line-height: 3;
+    text-align: center;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+.instruction_btn {
+  float: right;
+  border: 1px solid white;
+}
+
+    canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px grey;
+    animation-name: egs;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes egs {
+    from {box-shadow: 1px 1px 38px greenyellow;}
+    to {box-shadow: 1px 1px 38px gold;}
+  }
